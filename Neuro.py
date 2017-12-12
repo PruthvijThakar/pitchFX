@@ -129,7 +129,7 @@ def view_charts(pK, finaldict):
 # invoking functions and specifying path to be extracted     
 def combine_functions():
  
-    ab = extract_atbat("C:\\Users\\pruth\\Desktop\\CSYE 7245\\NeuroScouting\\2013_pitchfx_data\\2013_pitchfx_data")
+    ab = extract_atbat("C:\\Users\\pruth\\Desktop\\CSYE 7245\\NeuroScouting\\2013_pitchfx_data\\2013_pitchfx_data") # Enter path to your folder storage
     sleep(thread_sleep)
     events_dict = {}
     atbat_final(ab, events_dict)
